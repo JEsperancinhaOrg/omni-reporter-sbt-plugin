@@ -1,0 +1,4 @@
+<plugin>
+  <name>omni-reporter-scala-plugin</name>
+  <classname>org.jesperancinha.omni.ScalaCompilerPlugin</classname>
+</plugin>

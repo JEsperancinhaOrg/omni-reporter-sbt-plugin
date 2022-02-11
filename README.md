@@ -1,2 +1,6 @@
 # omni-reporter-scala-plugin
-The Omni reporter version for Scala projects
+
+
+## References
+
+- [scala-compiler-plugin-template](https://github.com/softwaremill/scala-compiler-plugin-template)
