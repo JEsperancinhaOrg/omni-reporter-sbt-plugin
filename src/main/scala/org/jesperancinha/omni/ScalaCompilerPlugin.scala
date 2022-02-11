@@ -1,4 +1,4 @@
-package com.softwaremill
+package org.jesperancinha.omni
 
 import scala.tools.nsc.{Global, Phase}
 import scala.tools.nsc.plugins.{Plugin, PluginComponent}
