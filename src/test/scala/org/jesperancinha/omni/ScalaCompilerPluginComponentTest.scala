@@ -11,6 +11,6 @@ class ScalaCompilerPluginComponentTest extends AnyFunSuite {
   val global: Global = Global.apply(settings)
 
   test("should create plugin component instance") {
-    new ScalaCompilerPluginComponent(global)
+    val component = new ScalaCompilerPluginComponent(global)
   }
 }
