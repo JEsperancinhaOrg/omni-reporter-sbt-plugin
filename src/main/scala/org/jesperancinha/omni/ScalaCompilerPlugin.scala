@@ -7,8 +7,7 @@ class ScalaCompilerPlugin(override val global: Global) extends Plugin {
 
   override val name: String = "omni-reporter-scala-plugin"
   override val description: String = "Omni Reporter Scala Plugin"
-
-  override val components: List[PluginComponent] = List(new ScalaCompilerPluginComponent(global))
+  override val components: List[PluginComponent] = List.apply(new ScalaCompilerPluginComponent(global))
 }
 
 class ScalaCompilerPluginComponent(val global: Global) extends PluginComponent {

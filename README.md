@@ -13,6 +13,12 @@
 
 ---
 
+## Publish Local
+
+```shell
+sbt publishM2
+```
+
 ## References
 
 - [scala-compiler-plugin-template](https://github.com/softwaremill/scala-compiler-plugin-template)
