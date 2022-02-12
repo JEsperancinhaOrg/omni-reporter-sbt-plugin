@@ -13,6 +13,13 @@
 
 ---
 
+## Introduction
+
+This project is under contruction and it is intended to be used as a plugin for Scala projects.
+At the moment it preserves a shape of a compile plugin. It does not work yet.
+
+Please check document [ReleaseNotes.md](./ReleaseNotes.md) to keep up-to-date on the changes of this project
+
 ## Publish Local
 
 ```shell
@@ -22,3 +29,4 @@ sbt publishM2
 ## References
 
 - [scala-compiler-plugin-template](https://github.com/softwaremill/scala-compiler-plugin-template)
+- [string mask plugin](https://github.com/mkubala/stringmask/tree/scalac-plugin)

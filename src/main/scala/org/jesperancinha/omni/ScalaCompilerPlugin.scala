@@ -1,5 +1,6 @@
 package org.jesperancinha.omni
 
+import scala.io.Source
 import scala.tools.nsc.plugins.{Plugin, PluginComponent}
 import scala.tools.nsc.{Global, Phase}
 
@@ -10,11 +11,19 @@ class ScalaCompilerPlugin(override val global: Global) extends Plugin {
   override val components: List[PluginComponent] = List.apply(new ScalaCompilerPluginComponent(global))
 
   override def writeAdditionalOutputs(writer: scala.tools.nsc.plugins.OutputFileWriter): scala.Unit = {
-    global.reporter.echo("additionals")
-    global.reporter.echo(global.reporter.settings.toString())
-    global.reporter.echo(global.phase.toString())
-    global.reporter.echo(global.RootClass.toString())
-    global.reporter.echo("additionals")
+    val rootFolder = global.reporter.settings.classpath.value.split("/target").apply(0)
+    val srcFolder = rootFolder + "/src"
+    val targetFolder = rootFolder + "/target"
+    val source = Source.fromFile("omni-config.json")
+
+    val string = source.mkString
+//    val value = OmniReporterCommon.readOmniConfig()
+//    global.reporter.echo(value.getCodacyUrl)
+
+    //    val jsonMap = JSON.parseFull(string).getOrElse(0).asInstanceOf[OmniConfig]
+    //    global.reporter.echo(jsonMap.codacyUrl)
+    global.reporter.echo(string)
+    source.close()
   }
 }
 
