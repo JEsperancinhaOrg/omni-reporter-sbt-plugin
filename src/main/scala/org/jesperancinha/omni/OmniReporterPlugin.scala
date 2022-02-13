@@ -30,8 +30,6 @@ object OmniReporterPlugin extends AutoPlugin {
     val testFolder = rootFolder + "/streams/test"
     val targetFolder = rootFolder + "/target"
 
-    val omniConfig = OmniReporterCommon.readOmniConfig()
-
     val omniBuild = new OmniBuildGeneric(testFolder, rootAbsolutePath)
     val omniProject = new OmniProjectGeneric(rootAbsolutePath, omniBuild)
 
@@ -39,6 +37,8 @@ object OmniReporterPlugin extends AutoPlugin {
     val omniProject2 = new OmniProjectGeneric(srcFolder, omniBuild2)
 
     val omniProjects: util.List[OmniProjectGeneric] = util.Arrays.asList(omniProject, omniProject2)
-    new OmniReporterCommon(omniConfig).execute(omniProjects)
+    OmniReporterCommon
+      .createReporterFromJsonConfig()
+      .execute(omniProjects)
   }
 }
