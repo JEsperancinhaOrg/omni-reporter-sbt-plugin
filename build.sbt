@@ -23,6 +23,12 @@ lazy val omniReport = (project in file("."))
     },
     libraryDependencies ++= Seq(
       "org.jesperancinha.plugins" % "omni-coveragereporter-commons" % "0.3.0",
+      "org.jetbrains.kotlin" % "kotlin-stdlib" % "1.6.20-M1",
+      "org.jetbrains.kotlin" % "kotlin-reflect" % "1.6.20-M1",
+      "org.slf4j" % "slf4j-api" % "1.7.35",
+      "org.slf4j" % "slf4j-simple" % "1.7.35",
+      "com.typesafe.scala-logging" %% "scala-logging" % "3.9.4",
+      "ch.qos.logback" % "logback-classic" % "1.2.10",
       "org.scalatest" %% "scalatest" % "3.2.9" % Test,
       "org.scalatest" %% "scalatest-flatspec" % "3.3.0-SNAP3" % Test,
       "org.scalatest" %% "scalatest-wordspec" % "3.3.0-SNAP3" % Test,
