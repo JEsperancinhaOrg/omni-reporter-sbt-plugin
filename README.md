@@ -28,5 +28,6 @@ sbt publishM2
 
 ## References
 
+- [Write & test your own scala SBT plugin…](https://medium.com/@phkadam2008/write-test-your-own-scala-sbt-plugin-6701b0e36a62)
 - [scala-compiler-plugin-template](https://github.com/softwaremill/scala-compiler-plugin-template)
 - [string mask plugin](https://github.com/mkubala/stringmask/tree/scalac-plugin)
