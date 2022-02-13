@@ -26,15 +26,16 @@ object OmniReporterPlugin extends AutoPlugin {
   private def omniTask = Def.task {
     val rootFolder = new File(".")
     val rootAbsolutePath = rootFolder.absolutePath
-    val srcFolder = rootFolder + "/src"
+    val srcFolder = rootFolder + "/src/main/scala"
+    val testFolder = rootFolder + "/streams/test"
     val targetFolder = rootFolder + "/target"
 
     val omniConfig = OmniReporterCommon.readOmniConfig()
 
-    val omniBuild = new OmniBuildGeneric(rootAbsolutePath, rootAbsolutePath)
+    val omniBuild = new OmniBuildGeneric(testFolder, rootAbsolutePath)
     val omniProject = new OmniProjectGeneric(rootAbsolutePath, omniBuild)
 
-    val omniBuild2 = new OmniBuildGeneric(targetFolder, targetFolder)
+    val omniBuild2 = new OmniBuildGeneric(testFolder, targetFolder)
     val omniProject2 = new OmniProjectGeneric(srcFolder, omniBuild2)
 
     val omniProjects: util.List[OmniProjectGeneric] = util.Arrays.asList(omniProject, omniProject2)
