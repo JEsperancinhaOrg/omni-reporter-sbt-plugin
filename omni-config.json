@@ -1,8 +1,4 @@
 {
-  "coverallsUrl": "https://coveralls.io/api/v1/jobs",
-  "codacyUrl": "https://api.codacy.com",
-  "codecovUrl": "https://codecov.io/upload",
-  "sourceEncoding": "UTF-8",
   "failOnNoEncoding": false,
   "failOnUnknown": false,
   "failOnReportNotFound": false,
