@@ -8,6 +8,12 @@ lazy val omniReport = (project in file("."))
     description := "Omni Coverage Reporter Plugin",
     homepage := Some(url("https://github.com/JEsperancinhaOrg/omni-reporter-sbt-plugin")),
     licenses += (("Apache 2.0", url("https://opensource.org/licenses/Apache-2.0"))),
+    scmInfo := Some(
+      ScmInfo(
+        url("https://github.com/JEsperancinhaOrg/omni-reporter-sbt-plugin"),
+        "scm:git@github.com:jesperancinhaorg/omni-reporter-sbt-plugin.git"
+      )
+    ),
     developers := List(
       Developer(
         "jesperancinha",
@@ -34,15 +40,6 @@ lazy val omniReport = (project in file("."))
       "org.scalatest" %% "scalatest-flatspec" % "3.3.0-SNAP3" % Test,
       "org.scalatest" %% "scalatest-wordspec" % "3.3.0-SNAP3" % Test,
       "org.scalatest" %% "scalatest-core" % "3.3.0-SNAP3" % Test),
-
-    scalacOptions ++= Seq(
-      "-unchecked",
-      "-deprecation",
-      "-feature",
-      "-Xfuture",
-      "-Ywarn-adapted-args",
-      "-Ywarn-dead-code"
-    ),
 
     resolvers ++= Seq(
       Resolver.mavenLocal,
