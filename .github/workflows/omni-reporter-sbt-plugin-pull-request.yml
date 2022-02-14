@@ -1,4 +1,4 @@
-name: Scala CI
+name: omni-reporter-sbt-plugin-pull_request
 
 on:
   pull_request:
