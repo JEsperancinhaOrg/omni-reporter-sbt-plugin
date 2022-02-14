@@ -8,6 +8,7 @@
 [![GitHub License](https://img.shields.io/badge/license-Apache%20License%202.0-blue.svg?style=flat)](https://www.apache.org/licenses/LICENSE-2.0)
 
 [![Coverage Status](https://coveralls.io/repos/github/JEsperancinhaOrg/omni-reporter-scala-plugin/badge.svg)](https://coveralls.io/github/JEsperancinhaOrg/omni-reporter-scala-plugin)
+[![codecov](https://codecov.io/gh/JEsperancinhaOrg/omni-reporter-scala-plugin/branch/master/graph/badge.svg?token=oyrlsnGqGu)](https://codecov.io/gh/JEsperancinhaOrg/omni-reporter-scala-plugin)
 
 [![GitHub language count](https://img.shields.io/github/languages/count/jesperancinhaorg/omni-reporter-scala-plugin.svg)](#)
 [![GitHub top language](https://img.shields.io/github/languages/top/jesperancinhaorg/omni-reporter-scala-plugin.svg)](#)
