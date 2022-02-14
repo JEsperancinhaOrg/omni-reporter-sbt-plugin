@@ -32,6 +32,19 @@ Please check document [ReleaseNotes.md](./ReleaseNotes.md) to keep up-to-date on
 sbt publishM2
 ```
 
+## Release
+
+File at ` ~/.sbt/sonatype_credentials` as described in [Using Sonatype](https://www.scala-sbt.org/1.x/docs/Using-Sonatype.html):
+
+```properties
+realm=Sonatype Nexus Repository Manager
+host=oss.sonatype.org
+user=<USER>
+password=<PASSWORD>
+```
+
+Check [plugin configuration](./project/plugins.sbt) for more details.
+
 ## References
 
 - [Using Sonatype](https://www.scala-sbt.org/1.x/docs/Using-Sonatype.html)
