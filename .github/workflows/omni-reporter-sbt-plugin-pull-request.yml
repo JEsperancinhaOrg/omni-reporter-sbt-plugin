@@ -20,5 +20,5 @@ jobs:
     - name: Run tests
       run: sbt test
 
-    - name: Run tests
+    - name: Run Build
       run: make build
