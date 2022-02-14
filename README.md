@@ -28,8 +28,18 @@
 
 ## Introduction
 
-This project is under contruction and it is intended to be used as a plugin for Scala projects.
-At the moment it preserves a shape of a compile plugin. It does not work yet.
+This version works pretty much like all JVM programmed Omni Reporter plugins. In this case, it also uses a JSON configuration just like the lein plugin.
+Have a look at the documentation on the maven plugin for further details and checkout the other plugins of the Omni family:
+
+| [![Generic badge](https://img.shields.io/static/v1.svg?label=GitHub&message=omni-coveragereporter-maven-plugin&color=informational)](https://github.com/JEsperancinhaOrg/omni-reporter-maven-plugin)                                                                                                                                                                                                 |
+|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [![Generic badge](https://img.shields.io/static/v1.svg?label=GitHub&message=omni-coveragereporter-gradle-plugin&color=informational)](https://github.com/JEsperancinhaOrg/omni-reporter-gradle-plugin) [![Generic badge](https://img.shields.io/static/v1.svg?label=GitHub&message=omni-coveragereporter-lein&color=informational)](https://github.com/jesperancinhaorg/omni-coveragereporter-lein)  |
+
+
+Also from the Omni family here are a few others that belong to different runtimes:
+
+[![Generic badge](https://img.shields.io/static/v1.svg?label=GitHub&message=omni-coveragereporter-python&color=informational)](https://github.com/JEsperancinhaOrg/omni-coveragereporter-python)
+
 
 Please check document [ReleaseNotes.md](./ReleaseNotes.md) to keep up-to-date on the changes of this project
 
