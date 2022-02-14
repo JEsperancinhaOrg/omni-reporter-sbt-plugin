@@ -6,3 +6,5 @@ build:
 	sbt compile
 coverage:
 	sbt publishM2 package jacoco omniReport -v
+release:
+	sbt publishOSSRH

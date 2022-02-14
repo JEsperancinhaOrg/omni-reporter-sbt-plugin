@@ -3,7 +3,7 @@ ThisBuild / scalaVersion := "2.12.13"
 lazy val omniReport = (project in file("."))
   .settings(
     name := "omni-reporter-sbt-plugin",
-    version := "0.0.0-SNAPSHOT",
+    version := "0.0.0",
     organization := "org.jesperancinha.plugins",
     description := "Omni Coverage Reporter Plugin",
     homepage := Some(url("https://github.com/JEsperancinhaOrg/omni-reporter-sbt-plugin")),
