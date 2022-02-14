@@ -7,6 +7,8 @@
 
 [![GitHub License](https://img.shields.io/badge/license-Apache%20License%202.0-blue.svg?style=flat)](https://www.apache.org/licenses/LICENSE-2.0)
 
+[![Codacy Badge](https://app.codacy.com/project/badge/Grade/81b290fccff945ebabcc0cdbbe19e5c6)](https://www.codacy.com/gh/JEsperancinhaOrg/omni-reporter-scala-plugin/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=JEsperancinhaOrg/omni-reporter-scala-plugin&amp;utm_campaign=Badge_Grade)
+
 [![Coverage Status](https://coveralls.io/repos/github/JEsperancinhaOrg/omni-reporter-scala-plugin/badge.svg)](https://coveralls.io/github/JEsperancinhaOrg/omni-reporter-scala-plugin)
 [![codecov](https://codecov.io/gh/JEsperancinhaOrg/omni-reporter-scala-plugin/branch/master/graph/badge.svg?token=oyrlsnGqGu)](https://codecov.io/gh/JEsperancinhaOrg/omni-reporter-scala-plugin)
 
