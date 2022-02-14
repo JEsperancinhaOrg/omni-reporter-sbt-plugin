@@ -12,7 +12,7 @@ lazy val omniReport = (project in file("."))
       Developer(
         "jesperancinha",
         "João Esperancinha",
-        "@joaofse",
+        "jofisaes@gmail.com",
         url("https://github.com/jesperancinha")
       )
     ),
