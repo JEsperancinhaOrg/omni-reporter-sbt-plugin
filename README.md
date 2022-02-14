@@ -34,6 +34,7 @@ sbt publishM2
 
 ## References
 
+- [Using Sonatype](https://www.scala-sbt.org/1.x/docs/Using-Sonatype.html)
 - [Write & test your own scala SBT plugin…](https://medium.com/@phkadam2008/write-test-your-own-scala-sbt-plugin-6701b0e36a62)
 - [scala-compiler-plugin-template](https://github.com/softwaremill/scala-compiler-plugin-template)
 - [string mask plugin](https://github.com/mkubala/stringmask/tree/scalac-plugin)
