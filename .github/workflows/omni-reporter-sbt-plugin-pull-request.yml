@@ -1,7 +1,7 @@
 name: Scala CI
 
 on:
-  push:
+  pull_request:
     branches: [ main ]
 
 jobs:
@@ -21,8 +21,4 @@ jobs:
       run: sbt test
 
     - name: Run tests
-      run: make coverage
-      env:
-         COVERALLS_REPO_TOKEN: ${{ secrets.COVERALLS_REPO_TOKEN }}
-         CODACY_PROJECT_TOKEN: ${{ secrets.CODACY_PROJECT_TOKEN }}
-         CODECOV_TOKEN: ${{ secrets.CODECOV_TOKEN }}
+      run: make build
