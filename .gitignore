@@ -3,3 +3,5 @@ target
 
 .bsp
 sbt.json
+
+.DS_Store
