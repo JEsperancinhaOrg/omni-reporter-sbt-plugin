@@ -7,7 +7,8 @@
 
 [![GitHub release](https://img.shields.io/github/release/JEsperancinhaOrg/omni-reporter-sbt-plugin.svg)](#)
 [![Maven Central](https://img.shields.io/maven-central/v/org.jesperancinha.plugins/omni-reporter-sbt-plugin)](https://mvnrepository.com/artifact/org.jesperancinha.plugins/omni-reporter-sbt-plugin)
-[![Sonatype Nexus](https://img.shields.io/nexus/r/https/oss.sonatype.org/org.jesperancinha.plugins/omni-reporter-sbt-plugin.svg)](https://search.maven.org/artifact/org.jesperancinha.plugins/omni-reporter-sbt-plugin)
+
+[//]: # ([![Sonatype Nexus]&#40;https://img.shields.io/nexus/r/https/oss.sonatype.org/org.jesperancinha.plugins/omni-reporter-sbt-plugin.svg&#41;]&#40;https://search.maven.org/artifact/org.jesperancinha.plugins/omni-reporter-sbt-plugin&#41;)
 
 [![GitHub License](https://img.shields.io/badge/license-Apache%20License%202.0-blue.svg?style=flat)](https://www.apache.org/licenses/LICENSE-2.0)
 
