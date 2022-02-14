@@ -6,7 +6,7 @@ resolvers +=
 
 addSbtPlugin("com.github.sbt" % "sbt-jacoco" % "3.4.0")
 addSbtPlugin("com.eed3si9n" % "sbt-assembly" % "0.14.8")
-addSbtPlugin("org.jesperancinha.plugins" % "omni-reporter-scala-plugin" % "0.0.0-SNAPSHOT")
+addSbtPlugin("org.jesperancinha.plugins" % "omni-reporter-sbt-plugin" % "0.0.0-SNAPSHOT")
 
 libraryDependencies += "org.scala-sbt" %% "scripted-plugin" % sbtVersion.value
 

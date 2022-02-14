@@ -1,4 +1,4 @@
-# omni-reporter-scala-plugin
+# omni-reporter-sbt-plugin
 
 ## Release 0.0.0 - Upcoming
 
