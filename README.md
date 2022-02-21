@@ -62,6 +62,10 @@ password=<PASSWORD>
 
 Check [plugin configuration](./project/plugins.sbt) for more details.
 
+See an example of the usage of this plugin on this project:
+
+[![Generic badge](https://img.shields.io/static/v1.svg?label=GitHub&message=math-service-scala%20🧮&color=informational)](https://github.com/jesperancinha/math-service-scala)
+
 ## References
 
 -   [Using Sonatype](https://www.scala-sbt.org/1.x/docs/Using-Sonatype.html)
