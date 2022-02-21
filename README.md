@@ -6,15 +6,15 @@
 [![Generic badge](https://img.shields.io/static/v1.svg?label=GitHub&message=omni-reporter-sbt-plugin&color=informational)](https://github.com/jesperancinhaorg/omni-reporter-sbt-plugin)
 
 [![GitHub release](https://img.shields.io/github/release/JEsperancinhaOrg/omni-reporter-sbt-plugin.svg)](#)
-[![Maven Central](https://img.shields.io/maven-central/v/org.jesperancinha.plugins/omni-reporter-sbt-plugin)](https://mvnrepository.com/artifact/org.jesperancinha.plugins/omni-reporter-sbt-plugin)
-
-[//]: # ([![Sonatype Nexus]&#40;https://img.shields.io/nexus/r/https/oss.sonatype.org/org.jesperancinha.plugins/omni-reporter-sbt-plugin.svg&#41;]&#40;https://search.maven.org/artifact/org.jesperancinha.plugins/omni-reporter-sbt-plugin&#41;)
+[![Scala version support](https://index.scala-lang.org/jesperancinhaorg/omni-reporter-sbt-plugin/omni-reporter-sbt-plugin/latest-by-scala-version.svg?platform=sbt1.0)](https://index.scala-lang.org/jesperancinhaorg/omni-reporter-sbt-plugin/omni-reporter-sbt-plugin)
 
 [![GitHub License](https://img.shields.io/badge/license-Apache%20License%202.0-blue.svg?style=flat)](https://www.apache.org/licenses/LICENSE-2.0)
 
 [![omni-reporter-sbt-plugin](https://github.com/JEsperancinhaOrg/omni-reporter-sbt-plugin/actions/workflows/omni-reporter-sbt-plugin.yml/badge.svg)](https://github.com/JEsperancinhaOrg/omni-reporter-sbt-plugin/actions/workflows/omni-reporter-sbt-plugin.yml)
 
 [![Codacy Badge](https://app.codacy.com/project/badge/Grade/773c3f06818347cca24c0332e6ce8da3)](https://www.codacy.com/gh/JEsperancinhaOrg/omni-reporter-scala-plugin/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=JEsperancinhaOrg/omni-reporter-scala-plugin&amp;utm_campaign=Badge_Grade)
+[![codebeat badge](https://codebeat.co/badges/7dbc50fe-1e97-44bb-8130-09afd2912009)](https://codebeat.co/projects/github-com-jesperancinhaorg-omni-reporter-sbt-plugin-main)
+[![BCH compliance](https://bettercodehub.com/edge/badge/JEsperancinhaOrg/omni-reporter-sbt-plugin?branch=main)](https://bettercodehub.com/results/JEsperancinhaOrg/omni-reporter-sbt-plugin)
 
 [![Codacy Badge](https://app.codacy.com/project/badge/Coverage/773c3f06818347cca24c0332e6ce8da3)](https://www.codacy.com/gh/JEsperancinhaOrg/omni-reporter-scala-plugin/dashboard?utm_source=github.com&utm_medium=referral&utm_content=JEsperancinhaOrg/omni-reporter-scala-plugin&utm_campaign=Badge_Coverage)
 [![Coverage Status](https://coveralls.io/repos/github/JEsperancinhaOrg/omni-reporter-sbt-plugin/badge.svg)](https://coveralls.io/github/JEsperancinhaOrg/omni-reporter-sbt-plugin)
