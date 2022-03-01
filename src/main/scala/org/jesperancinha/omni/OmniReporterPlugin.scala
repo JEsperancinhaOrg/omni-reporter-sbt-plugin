@@ -36,7 +36,7 @@ object OmniReporterPlugin extends AutoPlugin {
     val omniBuild2 = new OmniBuildGeneric(testFolder, targetFolder)
     val omniProject2 = new OmniProjectGeneric(srcFolder, omniBuild2)
 
-    val omniProjects: util.List[OmniProjectGeneric] = util.Arrays.asList(omniProject, omniProject2)
+    val omniProjects: util.List[OmniProjectGeneric] = util.Arrays.asList()
     OmniReporterCommon
       .createReporterFromJsonConfig()
       .execute(omniProjects)

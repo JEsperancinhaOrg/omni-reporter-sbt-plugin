@@ -3,7 +3,7 @@ ThisBuild / scalaVersion := "2.12.13"
 lazy val omniReport = (project in file("."))
   .settings(
     name := "omni-reporter-sbt-plugin",
-    version := "0.0.0",
+    version := "0.0.1",
     organization := "org.jesperancinha.plugins",
     description := "Omni Coverage Reporter Plugin",
     homepage := Some(url("https://github.com/JEsperancinhaOrg/omni-reporter-sbt-plugin")),
@@ -28,7 +28,7 @@ lazy val omniReport = (project in file("."))
       else Some("releases" at nexus + "service/local/staging/deploy/maven2")
     },
     libraryDependencies ++= Seq(
-      "org.jesperancinha.plugins" % "omni-coveragereporter-commons" % "0.3.0",
+      "org.jesperancinha.plugins" % "omni-coveragereporter-commons" % "0.3.1",
       "org.jetbrains.kotlin" % "kotlin-stdlib" % "1.6.20-M1",
       "org.jetbrains.kotlin" % "kotlin-reflect" % "1.6.20-M1",
       "org.slf4j" % "slf4j-api" % "1.7.35",
