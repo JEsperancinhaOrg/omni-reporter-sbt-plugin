@@ -64,9 +64,10 @@ password=<PASSWORD>
 
 Check [plugin configuration](./project/plugins.sbt) for more details.
 
-See an example of the usage of this plugin on this project:
+See examples of the usage of this plugin on these projects:
 
-[![Generic badge](https://img.shields.io/static/v1.svg?label=GitHub&message=math-service-scala%20🧮&color=informational)](https://github.com/jesperancinha/math-service-scala)
+- [![Generic badge](https://img.shields.io/static/v1.svg?label=GitHub&message=math-service-scala%20🧮&color=informational)](https://github.com/jesperancinha/math-service-scala) - Simple usage
+- [![Generic badge](https://img.shields.io/static/v1.svg?label=GitHub&message=Image%20Train%20Filters%20Services&color=informational)](https://github.com/jesperancinha/image-train-filters-scala) - Multi-module with extra sources and reports from different technologies (NodeJS and SBT-Scala)
 
 ## References
 
